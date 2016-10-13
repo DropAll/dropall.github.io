@@ -1,6 +1,8 @@
 # Tutorial #DropAll
 with success for begins
 
+![alt tag](https://media.giphy.com/media/jQjv4K9OV0Boc/giphy.gif)
+
 ## How to supercharge your linux
 Open your Terminal end copy/paste/enter:
 
