@@ -91,7 +91,7 @@ url-pretty: "dropall.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 500
+excerpt_length: 1000
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
