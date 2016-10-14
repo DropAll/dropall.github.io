@@ -40,17 +40,17 @@ avatar: "/img/avatar-icon.png"
 author:
   name: Henry Jr
   email: "hmjsite@gmail.com"
-  facebook: yourname  # eg. daattali
-  github: yourname    # eg. daattali
-  twitter: yourname   # eg. daattali
-  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
-  linkedin: yourname  # eg. daattali
-  xing: yourname      # eg. daattali
-  stackoverflow: yourlink  # eg. "3943160/daattali"
-  snapchat: yourname  # eg. daattali
-  instagram: yourname # eg. daattali
-  youtube: yourlink   # eg. user/daattali or channel/daattali
-  spotify: yourname   # eg. daattali
+  facebook: dropall  # eg. daattali
+  github: dropall    # eg. daattali
+  twitter: dropall   # eg. daattali
+  google-plus: +dropall   # eg. +DeanAttali or 109424658772469020925
+  linkedin: dropall  # eg. daattali
+  xing: dropall      # eg. daattali
+  stackoverflow: dropall  # eg. "3943160/daattali"
+  snapchat: dropall  # eg. daattali
+  instagram: dropall # eg. daattali
+  youtube: dropall   # eg. user/daattali or channel/daattali
+  spotify: dropall   # eg. daattali
 
 # Select which links to show in the footer
 footer-links-active:
