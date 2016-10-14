@@ -44,6 +44,6 @@ wget – Downloads a file. (You may also see curl in place of wget.)
 
 http://example.com/something – Download the file from this location.
 
-| – Pipe (send) the output of the wget command (the file you downloaded) directly to another command.
+\| – Pipe (send) the output of the wget command (the file you downloaded) directly to another command.
 
 sh – Send the file to the sh command, which executes it if it’s a bash script.
