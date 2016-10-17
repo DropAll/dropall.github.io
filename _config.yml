@@ -60,7 +60,7 @@ footer-links-active:
   email: true
   twitter: true
   google-plus: false
-  github: true
+  github: false
   linkedin: false
   xing: false
   stackoverflow: false
