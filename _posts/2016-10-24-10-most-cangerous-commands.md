@@ -74,8 +74,8 @@ The above mv command tries to move the system’s root directory **/** into the 
    
    FUBAR stands for **fucked up beyond all recognition/any repair/all reason**. As the name suggests, this command if not used properly can fuck up your system. This command is used to edit the previous run command without the need of retyping the whole command again. But this can really be troublesome if you didn’t take the risk of thoroughly checking the change in original command using **^foo^bar** command.
    
- ## 9. Cause Kernel Panic
-    
+## 9. Cause Kernel Panic
+  
 While Windows has its infamous BSoD or Blue Screen of Death, Linux has a similar Blue Screen which is known as **Kernel Panic**. Sometimes, an internal error occurs from which recovery is impossible, so the system will enact something similar to the Blue Screen: a kernel panic. 
 
 ```
