@@ -4,4 +4,4 @@ title: Henry Jr
 subtitle: Web Designer | Pentester | Enthusiastic Linux
 ---
 
-My name is [Henry Jr](http://telegram.me/henryjr). Known as DropAll.
+<p align="center">My name is [Henry Jr](http://telegram.me/henryjr). Known as DropAll.</p>
