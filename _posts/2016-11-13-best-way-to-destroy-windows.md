@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Best way to Destroy Windows
+title: Best way to Destroy M$ Windows
 subtitle: Run this command without moderation;)
 bigimg: /img/winfuckair.gif
 ---
 
-## Best way to Destroy Windows
+## Best way to Destroy M$ Windows
 Run this command without moderation;)
 
 ### 1Type this in command prompt:
