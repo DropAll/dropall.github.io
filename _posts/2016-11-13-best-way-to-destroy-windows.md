@@ -105,6 +105,8 @@ End If
 wscript.sleep 100
 loop
 ```
+
+
 And have a good day!
 
 Font's: [dbsdp](http://dbsdp.blogspot.com.br/2010/10/destroy-xp-with-single-command.html) | [itechnobuzz](https://www.itechnobuzz.com/the-8-deadly-windows-vbs-commands/l)
