@@ -40,10 +40,10 @@ avatar: "/img/avatar-icon.jpg"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Henry Jr
-  email: "hmjsite@gmail.com"
-  facebook: dropall  # eg. daattali
+  email: "dropall@email.com"
+  facebook: DropAllGithubio  # eg. daattali
   github: dropall    # eg. daattali
-  twitter: dropall   # eg. daattali
+  twitter: DropAllGithubio   # eg. daattali
   google-plus: +dropall   # eg. +DeanAttali or 109424658772469020925
   linkedin: dropall  # eg. daattali
   xing: dropall      # eg. daattali
