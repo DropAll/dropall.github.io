@@ -29,7 +29,8 @@ x64:
 #### Add $JAVA_HOME environment variable in system PATH.
 > \# vim /etc/profile
 
-```export JAVA_HOME="/opt/java/jdk8"
+```
+export JAVA_HOME="/opt/java/jdk8"
 export CLASSPATH="$JAVA_HOME/lib":$CLASSPATH
 export PATH="$JAVA_HOME/bin":$PATH
 export MANPATH="$JAVA_HOME/man":$MANPATH
@@ -40,3 +41,5 @@ Press ESC :x (To save and exit the Vim editor).
 > \#source /etc/profile
 
 Done!
+
+Font: Telegram [@Saitam10](http://telegram.me/Saitam10)
