@@ -12,10 +12,12 @@ Java, Coke and the Narcotics.
 
 Download JDK
 
-x86: 
+x86:
+
 > wget —no-check-certificate —no-cookies —header "Cookie: oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u60-b27/jdk-8u60-linux-i586.tar.gz"
 
 x64:
+
 > wget —no-check-certificate —no-cookies —header "Cookie: oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u60-b27/jdk-8u60-linux-x64.tar.gz"
 
 #### Config JDK
