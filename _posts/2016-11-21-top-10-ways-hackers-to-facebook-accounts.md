@@ -19,6 +19,7 @@ So, what can you do to prevent your Facebook accounts from being hacked? In this
 Phishing is one of the most popular attack route used by attackers for hacking Facebook accounts. While there are many methods to carry out phishing attack, a hacker in a simple phishing attack creates a fake login page, which looks similar to the original Facebook page. It then asks the victim to log in the fake Facebook page. The victim’s “Email Address” and “Password” is stored into a text file the moment the victim logs in through the fake page. The hacker then downloads the text file and is now able to view the victim’s credentials.
 
 **How To Avoid Phishing Attacks**
+
 - Never log into your Facebook account on other devices
 - Avoid emails that ask you to log into your Facebook account
 - Always use Chrome, as it identifies the phishing page
@@ -32,6 +33,7 @@ You can visit this URL and can see username and passwords you saved in your brow
 > chrome://settings/passwords
 
 **Tips To Protect Yourself**
+
 - Never save login credentials on your browser.
 - Always use the strong password on your computer.
 
@@ -40,6 +42,7 @@ You can visit this URL and can see username and passwords you saved in your brow
 One of the old time favourite to hack Facebook account is email ID hacking. All the hacker needs to do is access the connected email id of any Facebook account and manually reset your Facebook password.
 
 **Tips To Protect Yourself**
+
 - Use Strong passwords for your email account
 - Enable 2 step authentication in your Gmail account
 - Never enter email account on unnecessary sites
@@ -50,6 +53,7 @@ Smartphones these days have made it easy for millions of Facebook users to acces
 
 
 **Tips To Protect Yourself**
+
 - Use a trustworthy mobile security and Antivirus program on your mobile phone
 - Never install apps from unknown sources
 - Uninstall suspicious apps once you notice
@@ -69,6 +73,7 @@ If you are accessing Facebook on an HTTP (non-secure) connection, session hijack
 An attacker who has physical access to your computer can just insert a USB programmed with a function to mechanically extract saved passwords in the Internet browser.
 
 **How To Protect Yourself**
+
 - Insert trusted USB devices into your computer
 - Scan for USB devices once you plugged in
 - Don’t purchase second-hand USB devices
@@ -77,6 +82,7 @@ An attacker who has physical access to your computer can just insert a USB progr
 If you are using simple passwords like mobile number, DOB etc., then a good hacker can without any effort guess the password and hack into your account and collect your personal information.
 
 **Tips To Protect Yourself**
+
 - Never share your personal information via email, phone, chat messenger
 - To avoid the risk of Baiting, block USB devices
 - Avoid links from suspicious or unknown sites
@@ -85,6 +91,7 @@ If you are using simple passwords like mobile number, DOB etc., then a good hack
 Any hacker can hack your Wi-Fi router, if you use a weak password to setup your router security. The hacker can hack your Wi-Fi network and hijack all your internet traffic, which can let hackers hack your Facebook account.
 
 **Tips To Protect Yourself**
+
 - Don’t use Free Wi-Fi or public Wi-Fi
 - Change your Wi-Fi password on a regular basis
 - If you are using public Wi-Fi, always use VPN (virtual private network)
