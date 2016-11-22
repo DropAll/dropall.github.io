@@ -22,9 +22,9 @@ subtitle: Tutorial for DropAll with success for begins
         </p>
 
         <div class="post-entry">
-            {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
-            {% assign excerpt_word_count = post.excerpt | number_of_words %}
-            {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+            {{ post.subtitle | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+            {% assign excerpt_word_count = post.subtitle | number_of_words %}
+            {% if post.content != post.subtitle or excerpt_word_count > site.excerpt_length %}
             <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[+]</a>
             {% endif %}
         </div>
