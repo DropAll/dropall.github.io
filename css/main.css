@@ -340,9 +340,11 @@ footer .theme-by {
 .post-preview .post-meta,
 .post-heading .post-meta {
     color: #808080;
-    font-size: 18px;
+    font-size: 12px;
     font-style: italic;
-    margin: 0 0 10px;
+    margin: 3px 0 10px;
+    width: 75px;
+    float: left;
 }
 
 .post-preview .post-entry {
