@@ -17,9 +17,9 @@ subtitle: Tutorial for DropAll with success for begins
             {% endif %}
         </a>
 
-        <p class="post-meta">
+        <!-- <p class="post-meta">
             {{ post.date | date: "%-d/%m/%Y" }}
-        </p>
+        </p> -->
 
         <div class="post-entry">
             {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
