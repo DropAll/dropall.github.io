@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Top 10 Ways That Hackers To Hack Facebook Accounts
-subtitle: Tips On How To ~~Protect~~ Facebook Accounts From Hacking
+subtitle: Tips On How To Hack Facebook Accounts From Hacking
 bigimg: /img/feicebuq.gif
 ---
 
