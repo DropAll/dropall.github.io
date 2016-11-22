@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Do not use drugs, use Java
-subtitle: Java, Coke and the Narcotics
+subtitle: How to install JDK in linux
 bigimg: /img/java.gif
 ---
 
