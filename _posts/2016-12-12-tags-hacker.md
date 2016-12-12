@@ -13,9 +13,9 @@ anonymous journal
 
 `Adware` O termo (Ad) vem de adsense e (Ware) de malware. Como o próprio nome condiz, é um malware que tem como principal função exibir propaganda indesejada a sua vítima, seja em forma de pop-up ou unclosable window, para que o atacante ganhe dinheiro com os anúncios. 
 
-`AES` A sigla AES é uma abreviação do termo *Advanced Encryption Standard*, que traduzido para o português significa Padrão de Criptografia Avançada Ele é um  algoritmo  utilizado  para a  criptografia  de chave simétrica  ou outros algoritmos que seguem o padrão de criptografia de segurança em transmissão e armazenamento de dados.
+`AES` A sigla AES é uma abreviação do termo *Advanced Encryption Standard*, que traduzido para o português significa Padrão de Criptografia Avançada Ele é um algoritmo utilizado para a criptografia de chave simétrica ou outros algoritmos que seguem o padrão de criptografia de segurança em transmissão e armazenamento de dados.
 
-`Anti-Spyware` São  programas  para  remover  adwares,  spywares,,  keyloggers, trojans, ou outros malwares.
+`Anti-Spyware` São programas para remover adwares, spywares, keyloggers, trojans, ou outros malwares.
 
 `Aprovar` Foi originado pela seguinte frase *Sua Compra Foi Aprovada*, que foi bem recebida pela área cyber criminosa (carder), sendo assim, sempre que o cracker conseguir efetuar uma compra de forma ilícita dará como *Compra Aprovada*.
 
@@ -23,7 +23,7 @@ anonymous journal
 
 `Assembly` É uma linguagem de baixo nível, ou seja, próxima daquela que as máquinas *entendem*. Para utilizá-la é necessário conhecer não só a própria linguagem como também as características de funcionamento da máquina, ela é utilizada para programar códigos entendidos por dispositivos computacionais como microprocessadores e microcontroladores. 
  
- `Autoit` É uma linguagem de automação no qual tem como principal atuação em manutenção  e  instalação  de softwares,  pela  sua facilidade  de  criação e utilização. Muitos hackers aproveitaram a sua utilidade de ação e tiraram proveito, levando como um complemento para seus malwares.
+ `Autoit` É uma linguagem de automação no qual tem como principal atuação em manutenção e instalação de softwares, pela sua facilidade de criação e utilização. Muitos hackers aproveitaram a sua utilidade de ação e tiraram proveito, levando como um complemento para seus malwares.
 
 ## B
 
