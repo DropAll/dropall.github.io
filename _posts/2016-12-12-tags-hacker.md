@@ -31,9 +31,9 @@ anonymous journal
 
 `Big Data` É um termo que descreve o imenso volume de dados estruturados ou não estruturados que podem ser utilizados por empresas de forma que lhes convém.
 
-`Black Hat` É a subcategoria de hackers no qual se segue o ideal do benefício a si próprio sem se preocupar com os danos causados ao próximo. Muitas dessas pessoas seguem como principal alvo de atuação o carder ou a área de Infect.
-
 `Bitcoin` é uma tecnologia digital que permite reproduzir em pagamentos eletrônicos a eficiência dos pagamento com cédulas descrita acima. Pagamentos com bitcoins são rápidos, baratos e sem intermediários.
+
+`Black Hat` É a subcategoria de hackers no qual se segue o ideal do benefício a si próprio sem se preocupar com os danos causados ao próximo. Muitas dessas pessoas seguem como principal alvo de atuação o carder ou a área de Infect.
 
 `Bot` É a classe de robôs no qual tende como principal ação em funções de repetição e aplicação, pode-se se considerar um Bot tudo a qual se redige a função sequencial feita em forma massiva não pelo homem.
 
