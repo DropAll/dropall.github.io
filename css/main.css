@@ -15,7 +15,7 @@ p {
 
 p a {
     /* text-decoration: underline */
-    color: #008AFF;
+    color: #FF0000;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,12 +24,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: #008AFF;
+    color: #FF0000;
 }
 
 a:hover,
 a:focus {
-    color: #0085a1;
+    color:  #8c0000;
 }
 
 blockquote {
@@ -71,13 +71,13 @@ hr.small {
 ::-moz-selection {
     color: white;
     text-shadow: none;
-    background: #0085a1;
+    background:  #8c0000;
 }
 
 ::selection {
     color: white;
     text-shadow: none;
-    background: #0085a1;
+    background:  #8c0000;
 }
 
 img::selection {
@@ -127,7 +127,7 @@ img {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-    color: #0085a1;
+    color:  #8c0000;
 }
 
 @media only screen and (min-width: 768px) {
@@ -323,7 +323,7 @@ footer .theme-by {
 .post-preview a:focus,
 .post-preview a:hover {
     text-decoration: none;
-    color: #0085a1;
+    color:  #8c0000;
 }
 
 .post-preview .post-title {
@@ -370,14 +370,14 @@ footer .theme-by {
 }
 
 .blog-tags a {
-    color: #008AFF;
+    color: #FF0000;
     text-decoration: none;
     padding: 0px 5px;
 }
 
 .blog-tags a:hover {
     border-radius: 2px;
-    color: #008AFF;
+    color: #FF0000;
     background-color: #CCC;
 }
 
@@ -584,8 +584,8 @@ footer .theme-by {
 .pager li a:hover,
 .pager li a:focus {
     color: #FFF;
-    background: #0085a1;
-    border: 1px solid #0085a1;
+    background:  #8c0000;
+    border: 1px solid  #8c0000;
 }
 
 .pager {
