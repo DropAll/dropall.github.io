@@ -33,6 +33,8 @@ anonymous journal
 
 `Black Hat` É a subcategoria de hackers no qual se segue o ideal do benefício a si próprio sem se preocupar com os danos causados ao próximo. Muitas dessas pessoas seguem como principal alvo de atuação o carder ou a área de Infect.
 
+`Bitcoin` é uma tecnologia digital que permite reproduzir em pagamentos eletrônicos a eficiência dos pagamento com cédulas descrita acima. Pagamentos com bitcoins são rápidos, baratos e sem intermediários.
+
 `Bot` É a classe de robôs no qual tende como principal ação em funções de repetição e aplicação, pode-se se considerar um Bot tudo a qual se redige a função sequencial feita em forma massiva não pelo homem.
 
 `Booters` É uma subcategoria hacker no qual tem como principal atuação programar funções massivas usando como protótipos de Bots, vítimas de botnets, muitas das vezes em projetos publicitários abrindo involuntariamente diversas de propagandas em suas vítimas.
@@ -166,6 +168,8 @@ significa explorar vulnerabilidade.
 `LFI` (Local File Include), é uma falha de segurança em aplicações web que permite a inclusão de arquivos sensíveis de qualquer diretório do site ou até mesmo do sistema operacional. Também pode explorar técnicas de upload de shell.
 
 `Linux` Também conhecido como GNU/ Linux, é um sistema operacional open source, O Kernel foi criado pelo Linus Torvalds e por isso é conhecido apenas por Linux que é a junção do seu nome com o antigo sistema Unix.
+
+`Litecoin` é uma moeda ponto-a-ponto baseada na Internet que permite pagamentos instantâneos com um custo próximo à zero para qualquer indivíduo no mundo. Uma rede de pagamentos mundial, totalmente descentralizada e sem autoridades centrais.
 
 `Lock Picking` É o estudo de como funcionam as fechaduras normalmente utilizadas em portas e cadeados, incluindo como utilizar diversas ferramentas para abrir e testar a real segurança das mesmas.
 
