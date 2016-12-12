@@ -2,7 +2,7 @@
 layout: post
 title: Hacker Dictionary
 subtitle: anonymous journal
-bigimg: /img/hacker,gif
+bigimg: /img/hacker.gif
 ---
 
 # Hacker Dictionary
