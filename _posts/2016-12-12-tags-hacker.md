@@ -129,7 +129,7 @@ significa explorar vulnerabilidade.
 
 `Http` É sigla de HyperText Transfer Protocol, que significa *Protocolo de Transferência de Hipertexto*. É um protocolo de comunicação entre sistemas de informação que permite a transferência de dados entre redes de computadores, principalmente na internet.
 
-`Https` É sigla de HyperText Transfer Protocol Secure, que significa *Protocolo de Transferência de Hipertexto Seguro*, onde é adicionado uma camada de criptografía SSL /TLS para proteger o tráfego de dados.
+`Https` É sigla de HyperText Transfer Protocol Secure, que significa *Protocolo de Transferência de Hipertexto Seguro*, onde é adicionado uma camada de criptografía SSL/TLS para proteger o tráfego de dados.
 
 ## G
 
@@ -167,7 +167,7 @@ significa explorar vulnerabilidade.
 
 `LFI` (Local File Include), é uma falha de segurança em aplicações web que permite a inclusão de arquivos sensíveis de qualquer diretório do site ou até mesmo do sistema operacional. Também pode explorar técnicas de upload de shell.
 
-`Linux` Também conhecido como GNU/ Linux, é um sistema operacional open source, O Kernel foi criado pelo Linus Torvalds e por isso é conhecido apenas por Linux que é a junção do seu nome com o antigo sistema Unix.
+`Linux` Também conhecido como GNU/Linux, é um sistema operacional open source, O Kernel foi criado pelo Linus Torvalds e por isso é conhecido apenas por Linux que é a junção do seu nome com o antigo sistema Unix.
 
 `Litecoin` é uma moeda ponto-a-ponto baseada na Internet que permite pagamentos instantâneos com um custo próximo à zero para qualquer indivíduo no mundo. Uma rede de pagamentos mundial, totalmente descentralizada e sem autoridades centrais.
 
@@ -181,7 +181,7 @@ significa explorar vulnerabilidade.
 
 `Mailing` É um segmento de envio de emails de propaganda as famosas malas diretas, ela consiste em um banco de dados com informações do usuário tais como email, nome completo, telefone entre outras, com finalidade promover seu produto em forma de propaganda.
 
-`Malware` O termo (mal) vem de maléfico e (Ware) de software. Como o próprio nome condiz, ele é um software mal intencionado, ele pode variar em várias subcategorias tendo várias funções / utilidades mas todas com um propósito de prejudicar ou tirar proveito de suas vítimas.
+`Malware` O termo (mal) vem de maléfico e (Ware) de software. Como o próprio nome condiz, ele é um software mal intencionado, ele pode variar em várias subcategorias tendo várias funções/utilidades mas todas com um propósito de prejudicar ou tirar proveito de suas vítimas.
 
 `Man In The Middle` É um termo que se refere quando um atacante intercepta os dados de outras pessoas sem que as vítimas venham a perceber, ou seja, a informação é interceptada, e retransmitida pelo atacante.
 
@@ -244,7 +244,7 @@ significa explorar vulnerabilidade.
 
 `RaspberryPi` É um *Mini computador* que pode ser usado como servidor para hospedagem de sites e CIC Servers, para ser realizado ataques físicos, fazer máquinas de jogos, robôs, entre outras milhares de funcionalidades.
 
-`RedHat` A Red Hat Inc, é uma empresa dos Estados Unidos, que disponibiliza soluções baseadas no sistema operativo ou sistema operacional GNU/ Linux, incluindo várias distribuições.
+`RedHat` A Red Hat Inc, é uma empresa dos Estados Unidos, que disponibiliza soluções baseadas no sistema operativo ou sistema operacional GNU/Linux, incluindo várias distribuições.
 
 `Redirect` Url redirection, é uma técnica que redireciona o usuário para uma outra url antes da página ser carregada totalmente.
 
