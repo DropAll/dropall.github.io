@@ -9,7 +9,7 @@ bigimg: /img/vim.gif
 Burn your mind
 
 
-## Resume F*ck
+## F*ck Resume
 
 This is a Basic vi Cheat Sheet. A small guide to help readers use vi editor more efficiently.
 This part contains the simple vi commands.
