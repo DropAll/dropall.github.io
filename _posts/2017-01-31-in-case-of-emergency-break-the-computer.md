@@ -1,12 +1,12 @@
 ---
 layout: post
 title: In case of emergency break the computer
-subtitle: Burn your mind
+subtitle: v
 bigimg: /img/crash.gif
 ---
 
 # In case of emergency break the computer
-Burn... burn...
+I see crashs, crashs all over the place
 
 ## What happens when we join the hunger with the urge to eat?
 
