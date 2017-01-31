@@ -26,4 +26,4 @@ What is actually inside the top hat
 
 
 
-**Mage:** [@x_SHAMAN_x](https://t.me/x_SHAMAN_x) via Telegram.
+**Mage:** Via Telegram: [@x_SHAMAN_x](https://t.me/x_SHAMAN_x) / [Linux Group](https://telegram.me/joinchat/CYyDAT0Jg_EVAEedD9qgsw)
