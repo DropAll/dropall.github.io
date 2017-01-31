@@ -1,7 +1,7 @@
 ---
 layout: post
 title: In case of emergency break the computer
-subtitle: v
+subtitle: I see crashs, crashs all over the place
 bigimg: /img/crash.gif
 ---
 
