@@ -125,4 +125,5 @@ Pages based Navigation
 
 #### thz
 
-Font: ()https://startbloggingonline.com/wordpress-cheat-sheet/)
+**Font:** [startbloggingonline](https://startbloggingonline.com/wordpress-cheat-sheet/)
+
