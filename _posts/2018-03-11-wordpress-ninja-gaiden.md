@@ -10,6 +10,8 @@ Black Side of the Force
 
 ## Basic Template Files
 
+### Theme
+
 | Archive  | Function |
 | ------------- | ------------- |
 | style.css | Style sheet file |
@@ -25,6 +27,7 @@ Black Side of the Force
 | sidebar.php | Sidebar content file |
 | page.php | Single page file |
 
+### Theme - header
 
 | PHP Snippets for Header         |                                     |
 |---------------------------------|-------------------------------------|
@@ -41,6 +44,7 @@ Black Side of the Force
 | bloginfo('html_type');          | HTML version of the site            |
 | bloginfo('charset');            | Charset parameter of the site       |
 
+### Theme for templates
 
 | PHP Snippets for Templates       	|                                      	|
 |----------------------------------	|--------------------------------------	|
@@ -71,8 +75,7 @@ Black Side of the Force
 | posts_nav_link();                	| Next and previous post links         	|
 | bloginfo('description');         	| Site’s description                   	|
 
-
-**Navigation menu**
+### Theme - Navigation menu
 
 Category Based Navigation
 
@@ -94,6 +97,8 @@ Pages based Navigation
 </ul>
 ```
 
+### Theme extras
+
 | Extra stuff                  |                                                |
 |------------------------------|------------------------------------------------|
 | /%postname%/                 | Custom permalinks                              |
@@ -108,13 +113,14 @@ Pages based Navigation
 | timer_stop(1);               | Time to load the page                          |
 | echo get_num_queries();      | Queries to load the page                       |
 
+### Theme - The Loop
 
-**The Loop**
-```<php if(have_posts()): ?>
+```
+<php if(have_posts()): ?>
 <php while(have_posts()): the_post(); ?>
 // Post content here (Custom HTML & PHP code)
 <php else; ?>
 <php endif; ?>
 ```
 
-### thz
+#### thz
