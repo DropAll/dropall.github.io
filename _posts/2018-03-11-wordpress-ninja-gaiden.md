@@ -25,7 +25,8 @@ Black Side of the Force
 | sidebar.php | Sidebar content file |
 | page.php | Single page file |
 
-| PHP Snippets for Header                                               |
+
+| PHP Snippets for Header         |                                     |
 |---------------------------------|-------------------------------------|
 | bloginfo('name');               | Title of the site                   |
 | wp_title();                     | Title of the specific post or page  |
@@ -40,7 +41,8 @@ Black Side of the Force
 | bloginfo('html_type');          | HTML version of the site            |
 | bloginfo('charset');            | Charset parameter of the site       |
 
-| PHP Snippets for Templates       	                                       	|
+
+| PHP Snippets for Templates       	|                                      	|
 |----------------------------------	|--------------------------------------	|
 | the_content();                   	| Content of the posts                 	|
 | if(have_posts()):                	| Check if there are posts             	|
@@ -69,11 +71,13 @@ Black Side of the Force
 | posts_nav_link();                	| Next and previous post links         	|
 | bloginfo('description');         	| Site’s description                   	|
 
+
 **Navigation menu**
 
 Category Based Navigation
 
-```<ul id="menu">
+```
+<ul id="menu">
 <li <?php if(is_home()) { ?> class="current-cat" <?php } ?> >
 <a href="<php bloginfo('home'); ?>">Home</a></li>
 <?php wp_list_categories('title_li=&orderby=id'); ?>
@@ -82,14 +86,15 @@ Category Based Navigation
 
 Pages based Navigation
 
-```<ul id="menu">
+```
+<ul id="menu">
 <li <?php if(is_home()) { ?> class="current_page_item" <?php } >>>
 <a href="<php bloginfo('home'); ?>">Home</a></li>
 <?php wp_list_pages('sort_column=menu_order&depth=1&title_li='); ?>
 </ul>
 ```
 
-| Extra stuff                                                                   |
+| Extra stuff                  |                                                |
 |------------------------------|------------------------------------------------|
 | /%postname%/                 | Custom permalinks                              |
 | include(TEMPATEPATH . '/x'); | Include any file                               |
@@ -102,6 +107,7 @@ Pages based Navigation
 | wp_meta();                   | Meta for administrators                        |
 | timer_stop(1);               | Time to load the page                          |
 | echo get_num_queries();      | Queries to load the page                       |
+
 
 **The Loop**
 ```<php if(have_posts()): ?>
