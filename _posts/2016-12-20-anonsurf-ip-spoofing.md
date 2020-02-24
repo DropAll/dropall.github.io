@@ -18,7 +18,7 @@ Anonsurf will anonymize the entire system under TOR using IPTables. It will also
 Clone anonsurf from GIT
 
 ```
-root@kali:~# git clone https://github.com/Und3rf10w/kali-anonsurf.git
+root@kali:~# git clone https://github.com/Cyber-MA/kali-anonsurf.git
 Cloning into 'kali-anonsurf'...
 remote: Counting objects: 275, done.
 remote: Total 275 (delta 0), reused 0 (delta 0), pack-reused 275
